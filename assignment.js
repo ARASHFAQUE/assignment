@@ -13,7 +13,7 @@ function woodCalculator(chair, table, bed){
 }
 
 
-function brickCaculator(floor){
+function brickCalculator(floor){
     if(floor >=1 && floor <= 10){
         firstCount = 15000 * floor;
         console.log(firstCount);
